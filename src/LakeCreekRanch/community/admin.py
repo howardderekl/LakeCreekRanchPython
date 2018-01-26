@@ -34,3 +34,4 @@ class HomeForSaleAdmin(admin.ModelAdmin):
                     'sale_status',
                     'lot')
     list_editable = ('hide_from_website', 'sale_status')
+    verbose_name_plural = 'Homes For Sale'
